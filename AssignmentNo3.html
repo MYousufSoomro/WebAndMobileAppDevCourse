@@ -1,0 +1,442 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00401A" />
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1200px-Flag_of_Pakistan.svg.png">
+    <title>HTML Assignment 3 | M Yousuf | 20-May-2023</title>
+    
+    <style>
+        html {
+  scroll-behavior: smooth;
+}
+        h1 {
+            color: green;
+            background-color: rgba(0, 255, 21, 0.2);
+            padding: 20px;
+            box-shadow: 5px 5px 5px #cfcfcf;
+        }
+
+        h2 {
+            color: blue;
+            background-color: rgba(0, 21, 255, 0.2);
+            padding: 10px;
+            box-shadow: 5px 5px 5px #cfcfcf;
+        }
+        h3 {
+            color: red;
+            background-color: rgba(255, 0, 0, 0.2);
+            padding: 3px;
+            box-shadow: 5px 5px 5px #cfcfcf;
+
+        }
+        #backToTop {
+            color: black;
+            background-color: yellow;
+            padding: 10px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        #backToTop:hover {
+            background-color: rgb(227, 227, 0);
+        }
+        .main {
+            text-decoration: none;
+            color: blue;
+        }
+        .main:hover{
+            background-color: rgba(0, 21, 255, 0.2);
+        }
+        .nested {
+            text-decoration: none;
+            color: red;
+        }
+        .nested:hover{
+            background-color: rgba(255, 0, 0, 0.2);
+        }
+        #list {
+            color: black;
+            background-color: wheat;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="top">Pakistan</h1>
+    <hr />
+    <p>Pakistan ,<strong>(Urdu: پَاکِسْتَان)</strong>, officially the Islamic Republic of Pakistan ,<strong>(اِسْلامی جَمْہُورِیَہ پَاکِسْتَان)</strong>, is a country in South Asia. It is the world's fifth-most populous country, with a population of almost 243 million people, and has the world's second-largest Muslim population, just behind Indonesia. Islamabad is the nation's capital, while Karachi is its largest city and financial centre, followed by Lahore and Faisalabad. Pakistan is the 33rd-largest country in the world by area and the second-largest in South Asia, spanning 881,913 square kilometres (340,509 square miles). It has a 1,046-kilometre (650-mile) coastline along the Arabian Sea and Gulf of Oman in the south, and is bordered by India to the east, Afghanistan to the west, Iran to the southwest, and China to the northeast. It is separated narrowly from Tajikistan by Afghanistan's Wakhan Corridor in the north, and also shares a maritime border with Oman.</p>
+
+    <h3 id="list">Current administrative units of <abbr title="PAKISTAN">PAK  </abbr>:</h3>
+    <ul>
+        <li><strong><a class="main" href="#sin">Sindh</a></strong></li>
+            <ul>
+                <li><a class="nested" href="#kar">Karachi</a></li>
+                <li><a class="nested" href="#hyd">Hyderabad</a></li>
+                <li><a class="nested" href="#suk">Sukkur</a></li>
+                <li><a class="nested" href="#lar">Larkana</a></li>
+                <li><a class="nested" href="#naw">Nawabshah</a></li>
+            </ul>
+        <li><strong><a class="main" href="#kpk">Khyber Pakhtunkhwa</a></strong></li>
+            <ul>
+                <li><a class="nested" href="#pes">Peshawar</a></li>
+                <li><a class="nested" href="#mar">Mardan</a></li>
+                <li><a class="nested" href="#min">Mingora</a></li>
+                <li><a class="nested" href="#koh">Kohat</a></li>
+                <li><a class="nested" href="#dik">Dera Ismail Khan</a></li>
+            </ul>
+        <li><strong><a class="main" href="#bal">Balochistan</a></strong></li>
+            <ul>
+                <li><a class="nested" href="#cha">Chaman</a></li>
+                <li><a class="nested" href="#que">Quetta</a></li>
+                <li><a class="nested" href="#lor">Loralai</a></li>
+                <li><a class="nested" href="#kohl">Kohlu</a></li>
+                <li><a class="nested" href="#kal">Kalat</a></li>
+            </ul>
+        <li><strong><a class="main" href="#pun">Punjab</a></strong></li>
+            <ul>
+                <li><a class="nested" href="#ryk">Rahim Yar Khan</a></li>
+                <li><a class="nested" href="#bah">Bahawalpur</a></li>
+                <li><a class="nested" href="#mul">Multan</a></li>
+                <li><a class="nested" href="#lod">Lodhran </a></li>
+                <li><a class="nested" href="#raj">Rajanpur</a></li>
+            </ul>
+        <li><strong><a class="main" href="#ict">Islamabad Capital Territory</a></strong></li>
+            <ul>
+                <li><a class="nested" href="#pindi">Rawalpindi</a></li>
+                <li><a class="nested" href="#isl">Islamabad</a></li>
+                <li><a class="nested" href="#Marg">Margalla Hills</a></li>
+            </ul>
+        <li><strong><a class="main" href="#gil">Gilgit-Baltistan</a></strong></li>
+            <ul>
+                <li><a class="nested" href="#kha">Khaplu</a></li>
+                <li><a class="nested" href="#ska">Skardu</a></li>
+                <li><a class="nested" href="#gah">Gahkuch</a></li>
+                <li><a class="nested" href="#ali">Aliabad</a></li>
+                <li><a class="nested" href="#chi">Chilas</a></li>
+            </ul>
+        <li><strong><a class="main" href="#ajk">Azad Jammu and Kashmir</a></strong></li>
+            <ul>
+                <li><a class="nested" href="#muz">Muzaffarabad</a></li>
+                <li><a class="nested" href="#kot">Kotli</a></li>
+                <li><a class="nested" href="#raw">Rawalakot</a></li>
+                <li><a class="nested" href="#hat">Hattian Bala</a></li>
+                <li><a class="nested" href="#bhi">Bhimber</a></li>
+            </ul>
+    </ul>
+
+    <!-- SECTION # 01 >> SINDH -->
+    <h2 id="sin">Sindh</h2>
+    <hr />
+    <p>
+        Sindh <strong>(Urdu: سندھ)</strong> is a province of Pakistan. Located in the southeastern region of the country, Sindh is the third-largest province of Pakistan by land area and the second-largest province by population after Punjab. It is bordered by the Pakistani provinces of Balochistan to the west and north-west and Punjab to the north. It shares an International border with the Indian states of Gujarat and Rajasthan to the east; it is also bounded by the Arabian Sea to the south. 
+        <br />
+        <br />
+        Sindh's landscape consists mostly of alluvial plains flanking the Indus River, the Thar Desert in the eastern portion of the province along the international border with India, and the Kirthar Mountains in the western portion of the province.
+    </p>
+
+    <h3 id="kar">Karachi</h3>
+    <p>
+        Karachi <strong>(Urdu: کراچی)</strong> is the largest city in Pakistan and 12th largest in the world, with a population of over 20 million. It is situated at the southern tip of the country along the Arabian Sea coast. It is the former capital of Pakistan and capital of the province of Sindh. Ranked as a beta-global city, it is Pakistan's premier industrial and financial centre, with an estimated GDP of over $200 billion (PPP) as of 2021. Karachi paid $9 billion (25% of whole country) as tax during fiscal year July 2021 to May 2022 according to FBR report. 
+        <br />
+        <br />
+        Karachi is Pakistan's most cosmopolitan city, linguistically, ethnically, and religiously diverse, as well as one of Pakistan's most socially liberal cities. Karachi serves as a transport hub, and contains Pakistan's two largest seaports, the Port of Karachi and Port Qasim, as well as Pakistan's busiest airport, Jinnah International Airport. Karachi is also a media center, home to news channels, film and fashion industry of Pakistan. Most of Pakistan's multinational companies and banks have their headquarters in Karachi. Karachi is also a tourism hub due to its scenic beaches, historic buildings and shopping malls.
+    </p>
+    <h3 id="hyd">Hyderabad</a></h3>
+    <p>
+        Hyderabad <strong>(Urdu: حيدرآباد)</strong> is a city and the capital of Hyderabad Division in the Sindh province of Pakistan. It is the second-largest city in Sindh, and the eighth largest in Pakistan.
+<br />
+<br />
+Founded in 1768 by Mian Ghulam Shah Kalhoro of the Kalhora Dynasty, Hyderabad served as a provincial capital until the British transferred the capital to Bombay presidency in 1840. It is about 150 kilometres (93 mi) inland of Karachi, the largest city of Pakistan, to which it is connected by a direct railway and M-9 motorway.
+    </p>
+    <h3 id="suk">Sukkur</a></h3>
+    <p>
+        Sukkur <strong>(Urdu: سكھر)</strong> is a city in the Pakistani province of Sindh along the western bank of the Indus River, directly across from the historic city of Rohri. Sukkur is the third largest city in Sindh after Karachi and Hyderabad, and 14th largest city of Pakistan by population. 
+        <br />
+        <br />
+        New Sukkur was established during the British era alongside the village of Sukkur. Sukkur's hill, along with the hill on the river island of Bukkur, form what is sometimes considered the <q>Gate of Sindh</q>.
+    </p>
+    <h3 id="lar">Larkana</a></h3>
+    <p>Larkana <strong>(Urdu: لاڑکانہ)</strong> is a city located in the Sind province of Pakistan. It is the 15th largest city of Pakistan by population. It is home to the Indus Valley civilization site Mohenjo-daro. The historic Indus River flows in east and south of the city.
+        <br />
+        <br />
+
+        The city is located within Larkana District. Formerly known as <q>Chandka</q>, Larkana is located on the south bank of the Ghar canal, about 40 miles (64 km) south of the town Shikarpur, and 36 miles (58 km) northeast of Mehar. According to the 2017 Census of Pakistan, its population is 490,508. Therefore, it is the fourth most populated city of Sindh province after Karachi, Hyderabad, and Sukkur. Moreover, Larkana city has been placed as fifteenth largest of Pakistan during Census 2017.</p>
+    <h3 id="naw">Nawabshah</a></h3>
+    <p>Nawabshah <strong>(Urdu: نوابشاہ)</strong> is a tehsil and headquarters of the Shaheed Benazirabad District of Sindh province, Pakistan. This city is situated in the middle of Sindh province. It is the 27th largest city in Pakistan. Nawabshah Tehsil ( <em>formerly known as Nasrat Tehsil from 1907 to 1909</em> ) was established in 1907 by the British government. The tehsil was a part of Hyderabad district (1907 - 1912). On 1 November 1912, Nawabshah was upgraded to a district status of Sind Division.
+<br />
+<br />
+        In 1909, Syed Nawab Ali Shah donated 200 acres of land to British government for construction of a town railway station and 60 acres of land for construction of buildings of district and taluka offices free of cost. To commemorate this, the British government then changed the name of Nasrat town to Nawabshah town.</p>
+
+    <!-- SECTION # 02 >> KHYBER PAKHTUNKHWA -->
+    <h2 id="kpk">Khyber Pakhtunkhwa</h2>
+    <p>
+        Khyber Pakhtunkhwa <strong>(Urdu: خیبر پختونخوا)</strong>, commonly abbreviated as <abbr title="Khyber Pakhtunkhwa">KP or KPK</abbr>, is a province of Pakistan. Located in the northwestern region of the country, Khyber Pakhtunkhwa is the fourth largest province of Pakistan by land area and the third-largest province by population.
+        <br />
+        <br />
+
+        Khyber Pakhtunkhwa means the <q>Khyber side of the land of the Pashtuns</q>, where the word Pakhtunkhwa means <q>Land of the Pashtuns</q>, while according to some scholars, it refers to <q>Pashtun culture and society</q>.
+    </p>
+    <hr />
+        <h3 id="pes">Peshawar</h3>
+        <p>
+            Peshawar <strong>(Urdu: پشاور)</strong> is the sixth largest city in Pakistan, with a population of over 2.3 million. It is situated in the north-west of the country, lying in the Valley of Peshawar. It is the capital of the province of Khyber Pakhtunkhwa, where it is the largest city. 
+<br /> 
+<br /> 
+Peshawar is primarily populated by Pashtuns, who comprise the second-largest ethnic group in the country. Situated in the Valley of Peshawar, a broad area situated east of the historic Khyber Pass, Peshawar's recorded history dates back to at least 539 BCE, making it one of the oldest cities in South Asia. Peshawar is among the oldest continuously inhabited cities of the country.
+        </p>
+        <h3 id="mar">Mardan</h3>
+        <p>
+            Mardān <strong>(Urdu: مردان)</strong> is a city in the Mardan District of Khyber Pakhtunkhwa Province, Pakistan. Located in the Valley of Peshawar, Mardan is the second-largest city of Khyber Pakhtunkhwa (after Peshawar). It is a fast-growing city that experienced a population boom in the latter half of the twentieth century.
+<br />
+<br />
+Around 1800 BCE, the area around Mardan was part of the homeland of the Gandhara grave culture. Rock edicts of the ancient Indian King Ashoka in the nearby Shahbaz Garhi, written in the right-to-left Kharosthi script, date from the Mauryan period (mid-200s BCE) and represent the earliest irrefutable evidence of writing in South Asia The nearby Takht-i-Bahi which has remains of an ancient Buddhist monastery was listed as a UNESCO World Heritage Site in 1980.
+        </p>
+        <h3 id="min">Mingora</h3>
+        <p>
+            Mingora <strong>(Urdu: مینگورہ)</strong> is a city in the Swat District of Khyber Pakhtunkhwa, Pakistan. Located on the Swat River, it is the 3rd largest city in Khyber Pakhtunkhwa and the 26th largest in Pakistan. Mingora is the largest city and the epicenter of social, cultural, and economic activities in Malakand Division, and also the largest in the northern part of Khyber Pakhtunkhwa.
+            <br />
+            <br />
+            The area around Mingora has long been inhabited. At Loe Banr, Butkara II and Matalai, Italian archaeologists unearthed 475 Indo-Aryan graves dated between 1520 and 170 BC and two horse skeletons. On the opposite side of the River Swat at Aligrama, near the Saidu Sharif airport, a site of Gandhara grave culture was discovered by Italian archaeologists and dated to 1000 BC.
+        </p>
+        <h3 id="koh">Kohat</h3>
+        <p>
+            Kohat <strong>(Urdu: کوہاٹ)</strong> is a city that serves as the capital of the Kohat District in Khyber Pakhtunkhwa, Pakistan. It is regarded as a centre of the Bangash tribe of Pashtuns, who have lived in the region since the late 15th century. With a population of over 220,000 people, the city is the fourth-largest in Khyber Pakhtunkhwa and the 35th-largest in Pakistan in terms of population. 
+            <br />
+            <br />
+            Kohat's immediate environs were the site of frequent armed skirmishes between British colonialist forces and local tribesmen in the mid to late 19th century. It is centred on a British-era fort, various bazaars, and a military cantonment. Pashto and the Kohati dialect of Hindko are the main languages spoken in Kohat.
+        </p>
+        <h3 id="dik">Dera Ismail Khan</h3>
+        <p>
+            Dera Ismail Khan <strong>(Urdu and Saraiki: ڈیرہ اسماعیل خان)</strong>, abbreviated as <abbr title="Dera Ismail Khan">D.I. Khan</abbr>, is a city and capital of Dera Ismail Khan District, located in Khyber Pakhtunkhwa, Pakistan. It is the 37th largest city of Pakistan and fifth largest in the province of Khyber Pakhtunkhwa by population. Dera Ismail Khan is situated on the west bank of the Indus River, at its junction with the Gomal River.
+        <br />
+        <br />
+        It is 300 kilometres (190 mi) south of the provincial capital Peshawar, and 230 kilometres (140 mi) northwest of Multan, Punjab.
+        </p>
+
+    <!-- SECTION # 03 >> BALOCHISTAN -->
+        <h2 id="bal">Balochistan</h2>
+        <hr />
+        <p>
+        Balochistan <strong>(Urdu: بلوچستان)</strong> is a province of Pakistan. Located in the southwestern region of the country, Balochistan is the <strong>largest province of Pakistan by land area</strong> but is the least populated one. It is bordered by the Pakistani provinces of <a href="#kpk">Khyber Pakhtunkhwa</a> to the north-east, <a href="#pun">Punjab</a> to the east and <a href="#sin">Sindh</a> to the south-east; shares international borders with Iran to the west and Afghanistan to the north; and is bound by the Arabian Sea to the south. Balochistan is an extensive plateau of rough terrain divided into basins by ranges of sufficient heights and ruggedness. It has the world's largest deep sea port, the Port of Gwadar lying in the Arabian Sea.
+        </p>
+        <h3 id="cha">Chaman</h3>
+        <p>
+        Chaman District <strong>(Urdu: ضلع چمن)</strong> is an administrative district of Balochistan Province, Pakistan. Chaman District was created after bifurcating Qila Abdullah District. Chaman District is also known as the <q>Dry port</q> for <abbr title="China-Pakistan Economic Corridor">CPEC</abbr> projects.
+        </p>
+        <h3 id="que">Quetta</h3>
+        <p>
+        Quetta <strong>(Urdu: کوئٹہ)</strong> is a district in the north-west of the Balochistan province of Pakistan, on the border with Kandahar province, Afghanistan. It is part of Quetta Division. 
+        <br />
+        <br />
+        The district is famous for its agriculture produce, most notably fruit orchards but also including apples and grapes. The Hanna Valley is an area where almonds are grown. The population counted in the 1998 census was 760,000, while in 2010 it was estimated at 1,235,000.
+        </p>
+        <h3 id="lor">Loralai</h3>
+        <p>
+        Loralai District <strong>(Urdu: ضلع لورالائی)</strong> is a district in the northeast of Balochistan province of Pakistan. Loralai town is the district headquarters.
+        <br />
+        <br />
+        At the time of the 2017 census the district had a population of 244,446, of which 130,484 were males and 113,950 females. Rural population was 189,597 (77.56%) while the urban population was 54,849 (22.44%). The literacy rate was 42.42% - the male literacy rate was 56.99% while the female literacy rate was 25.46%. 1,201 people in the district were from religious minorities.
+
+        </p>
+        <h3 id="kohl">Kohlu</h3>
+        <p>
+        Kohlu district <strong>(Urdu: ضلع کوہلو)</strong> is a district of the Balochistan province of Pakistan. It is bounded in the north by Loralai District, Dera Bugti in the south, Barkhan in the east, and Sibi District in the west.
+        <br />
+        <br />
+        According to Alif Ailaan district education rankings 2017, the district is ranked at number 150 out of the 155 districts of Pakistan for primary school infrastructure. At the middle school level, it is ranked at number 149 out of the 155 districts. 
+        </p>
+        <h3 id="kal">Kalat</h3>
+        <p>
+        Kalat or Qalat <strong>(Urdu: ضلع قلات)</strong> is a district in Balochistan, Pakistan. It is one of 26 in that province, and encompasses an area of 6,621 km2 (2,556 sq mi). The population of the district is estimated to be over 400,000 in 2005. The district is governed from the city of Kalat.
+        <br />
+        <br />
+        According to the Pakistan District Education Rankings 2017, district Kalat is ranked at number 66 out of the 141 ranked districts in Pakistan on the education score index. This index considers learning, gender parity and retention in the district.
+        </p>    
+    <!-- SECTION # 04 >> PUNJAB -->
+        <h2 id="pun">Punjab</h2>
+        <hr />
+        <p>
+        Punjab <strong>(Urdu: پنجاب)</strong> is a province of Pakistan. Located in central-eastern region of the country, Punjab is the second-largest province of Pakistan by land area and the largest province by population. It is bordered by the Pakistani provinces of Khyber Pakhtunkhwa to the north-west, Balochistan to the south-west and Sindh to the south, as well as Islamabad Capital Territory to the north-west and Autonomous state of AJK to the north. 
+        <br />
+        <br />
+        It shares an International border with the Indian states of Rajasthan and Punjab to the east and Indian-administered Kashmir to the north-east. Punjab is the most fertile province of the country as River Indus and its four major tributaries Ravi, Jhelum, Chenab and Sutlej flow through it.
+         </p>
+
+        <h3 id="ryk">Rahim Yar Khan</h3>
+        <p>
+        Rahim Yar Khan has had the status of a separate district since 1943. The district derives its name from its headquarters, the city of Rahim Yar Khan, which was known as "Naushehra" until 1881. To avoid confusion with the similarly named city of Nowshera, the ruler of Bahawalpur, Nawab Sadiq Khan IV, renamed it after his first son, Rahim Yar Khan.
+        <br />
+        <br />
+        This district is divided into three main physical features: 
+        <ol>
+            <li>Riverside area</li>
+            <li>Canal-irrigated area, and</li>
+            <li>Desert area which is called Cholistan</li>
+        </ol>
+        </p>
+        <h3 id="bah">Bahawalpur</h3>
+        <p>
+            Bahawalpur District <strong>(ضلع بہاول پور)</strong> is a district of Punjab, Pakistan, with capital the city of Bahawalpur. According to the 1998 Census it had a population of 2,433,091, of which 27.01% were urban. Bahawalpur district covers 24,830 km<sup>2</sup>. Approximately two-thirds of the district (16,000 km<sup>2</sup> ) is covered by the Cholistan Desert, which extends into the Thar Desert of India. The district is a major producer of cotton.
+        <br />
+        <br />
+        Located in the south of the Punjab province, Bahawalpur district is bordered by India to its south and southeast, Bahawalnagar to its northeast, Vehari, Lodhran and Multan to its north, Rahimyar Khan to its west, and Muzaffargarh to its northwest.
+        </p>
+        <h3 id="mul">Multan</h3>
+        <p>
+        Multan District <strong>(Urdu: ضِلع مُلتان)</strong>, is a district in the province of Punjab, Pakistan. Its capital is the city of Multan. The district has a population of 4.75 million (as of 2017) and an area of 3,720 square kilometres. The district consists of tehsils of Multan saddar, Multan city, Jalalpur Pirwala and Shujabad.
+        <br />
+        <br />
+        Vehari, Khanewal and Lodhran were Tehsils of Multan district. Vehari was made separate district in 1976. Khanewal was cut off from Multan and made a separate district in 1985. Lodhran was split off as a separate district from Multan in 1991.
+        </p>
+        <h3 id="lod">Lodhran </h3>
+        <p>
+            Lodhran District <strong>(Saraiki: ضِلع لودهراں)</strong>, is a district in the province of Punjab, Pakistan, with the city of Lodhran as its capital. Located on the northern side of the River Sutlej, it is bounded to the north by the districts of Multan, Khanewal and Vehari, to the south by Bahawalpur, to the east lie the districts of Vehari and Bahawalpur; while district Multan lies on the western side.
+        <br />
+        <br />
+        Lodhran was split off as a separate district from Multan in 1991. It has the lowest Human Development Index of all districts in Punjab, and is among the thirty poorest districts in Pakistan. It is a well-known <strong>cotton-growing area</strong>.
+        </p>
+        <h3 id="raj">Rajanpur</h3>
+        <p>
+           Rajanpur <strong>(Urdu: ضِلع راجن پُور)</strong> is a district of the Pakistani province of Punjab, with its administrative headquarters the city of Rajanpur. Lying west of the Indus River, its inhabitants are mostly Saraikis and Baloch. According to the 1998 census, the district had a population of 1,100,000, and 14.27% of these were inhabitants of urban areas.
+        <br />
+        <br />
+        The district of Rajanpur comprises three administrative subdivisions (Tehsil) and 44 Union Councils.
+        <ol>
+            <li>Jampur</li>
+            <li>Rajanpur</li>
+            <li>Rojhan</li>
+        </ol>
+        </p>
+
+    <!-- SECTION # 05 >> ISLAMABAD CAPITAL TERRITORY -->
+        <h2 id="ict">Islamabad Capital Territory</h2>
+        <hr />
+        <p>
+            The Islamabad Capital Territory <strong>(Urdu: وفاقی دارالحکومت)</strong> is the only federal territory of Pakistan containing Islamabad, the capital of Pakistan. Located on the northern edge of the Pothohar Plateau and at the foot of the Margalla Hills, The <abbr title="Islamabad Capital Territory">ICT</abbr> shares borders with the province of Khyber Pakhtunkhwa in the west and with the province of Punjab in the remaining directions. 
+            <br />
+            <br />
+            It covers an area of 1,165 square kilometres (450 sq mi) and according to the 2017 national census, had a population of over 1 million in the city proper, while over 2 million in the whole territory. The territory is represented in the National Assembly by NA-52, NA-53, and NA-54 constituencies and by four seats in the Senate.
+            <br />
+            <br />
+            In 1960, land was transferred from Rawalpindi District of Punjab province to replace Karachi Federal Capital Territory and establish Pakistan's new capital. According to the 1960s master plan, the Capital Territory included Rawalpindi, and was to be composed of the following parts:
+         </p>
+
+        <h3 id="pindi">Rawalpindi</h3>
+        <p>
+            Rawalpindi <strong>(Urdu: راولپنڈی)</strong> is a city in the Punjab province of Pakistan. It is the fourth most populous city in Pakistan after Karachi, Lahore, and Faisalabad, and third populous in Punjab after Lahore and Faisalabad. Rawalpindi is situated close to Pakistan's capital Islamabad, and the two are jointly known as the "twin cities" because of the social and economic links between them.
+            <br />
+            <br />
+            The region around Rawalpindi has been inhabited for thousands of years. Rawalpindi falls within the ancient boundaries of Gandhara, and is thus in a region containing many Buddhist ruins. In the region north-west of Rawalpindi, traces have been found of at least 55 stupas, 28 Buddhist monasteries, 9 temples, and various artifacts in the Kharoshthi script.
+        </p>
+        <h3 id="isl">Islamabad</h3>
+        <p>
+            Islamabad <strong>(Urdu: اسلام آباد)</strong> is the capital city of Pakistan. It is the country's ninth-most populous city, with a population of over 1.2 million people, and is federally administered by the Pakistani government as part of the Islamabad Capital Territory. Built as a planned city in the 1960s, it replaced Rawalpindi as Pakistan's national capital. The city is notable for its high standards of living, safety, cleanliness, and abundant greenery.
+            <br />
+            <br />
+            Islamabad has attracted people from all over Pakistan, making it one of the most cosmopolitan and urbanised cities of Pakistan. As the capital city it has hosted a number of important meetings, such as the South Asian Association for Regional Cooperation summit in 2004.
+        </p>
+        <h3 id="Marg">Margalla Hills</h3>
+        <p>
+            The Margalla Hills <strong>(Urdu: مارگلہ پہاڑیاں)</strong> are a hill range within the Margalla Hills National Park on the northern edge of Islamabad Capital Territory, Pakistan, just south of Haripur District, Khyber Pakhtunkhwa. They are part of the Himalayan foothills. The Margalla range has an area of 12,605 hectares. It is a range with many valleys as well as high mountains.
+        </p>
+    <!-- SECTION # 06 >> Gilgit-Baltistan -->
+        <h2 id="gil">Gilgit-Baltistan</h2>
+        <hr />
+        <p>Gilgit-Baltistan <strong>(Urdu: گِلْگِت بَلْتِسْتان)</strong>, formerly known as the Northern Areas, is a region administered by Pakistan as an administrative territory and constituting the northern portion of the larger Kashmir region which has been the subject of a dispute between India and Pakistan since 1947, and between India and China since somewhat later. It borders Azad Kashmir to the south, the province of Khyber Pakhtunkhwa to the west, the Wakhan Corridor of Afghanistan to the north, the Xinjiang region of China, to the east and northeast, and the Indian-administered union territories Jammu and Kashmir and Ladakh to the southeast.
+        <br />
+        <br />
+        The region, together with Azad Kashmir in the southwest, is grouped and referred to by the United Nations and other international organisations as <q>Pakistan-administered Kashmir</q>. Gilgit-Baltistan is six times larger than Azad Kashmir in terms of geographical area.</p>
+    
+        <h3 id="kha">Khaplu</h3>
+        <p>
+            Khaplu <strong>(Urdu: خپلو)</strong>, also spelt Khapalu, is a city that serves as the administrative capital of the Ghanche District of Gilgit-Baltistan in northern Pakistan. Lying 103 km (64 mi) east of the city of Skardu, it was the second-largest kingdom in old Baltistan under the Yabgo dynasty. It guarded the trade route to Ladakh along the Shyok River east of its confluence with the Indus.
+        <br />
+        <br />
+            Khaplu is a base for trekking into the Hushe valley, which leads to the high peaks of Masherbrum, K6, K7, and Chogolisa. Khaplu has a 700-year-old mosque, Chaqchan, founded by Ameer Kabeer Syed Ali Hamadani (RA). Other tourist sites include Ehlie broq, Hanjor, ThoqsiKhar, Kaldaq, and the Shyok River.
+        </p>
+        <h3 id="ska">Skardu</h3>
+        <p>
+            Skardu <strong>(Urdu: سکردو)</strong> is a city located in Gilgit−Baltistan, Pakistan. Skardu serves as the capital of Skardu District and the Baltistan Division. It is situated at an elevation of nearly 2,500 metres (8,202 feet) in the Skardu Valley, at the confluence of the Indus and Shigar Rivers. The city is an important gateway to the eight-thousanders of the nearby Karakoram mountain range. The Indus River running through the region separates the Karakoram from the Ladakh Range.
+        <br />
+        <br />
+            The name <q>Skardu</q> is believed to be derived from the Balti word meaning <q>a lowland between two high places</q>. The two referenced "high places" are Shigar city, and the high-altitude Satpara Lake 
+        </p>
+        <h3 id="gah">Gahkuch</h3>
+        <p>
+            Gahkuch <strong>(Urdu: گاہکوچ)</strong> is the capital city of Ghizer District in Gilgit-Baltistan, Pakistan. The city lies on the way to Ishkoman. It is surrounded by mountains. 
+        <br />
+        <br />
+            It is situated 72 kilometers northwest of Gilgit, the capital of Pakistan's autonomous Gilgit-Baltistan province. Pakistan's 1998 census recorded the population of Gahkuch as 10,142.
+        </p>
+        <h3 id="ali">Aliabad</h3>
+        <p>
+            Aliabad <strong>(Burushaski/Urdu: علی آباد)</strong> is the administrative and commercial center of the Hunza District of Gilgit–Baltistan, Pakistan , Northern Areas of Pakistan.
+        <br />
+        <br />
+            The town is located in a relatively wide section of the Hunza Valley, in the northeastern corner of the Karakoram range, between two forks of the Hunza River. In May 2010 government officials warned that the nearby Attabad lake was close to flooding the area. 
+        </p>
+        <h3 id="chi">Chilas</h3>
+        <p>
+            Chilas <strong>(Urdu: چلاس)</strong> is a city and is the divisional capital of Diamer District located in Gilgit-Baltistan, Pakistan, on the Indus River. It is part of the Silk Road, connected by the Karakoram Highway and N-90 National Highway to Islamabad and Peshawar in the southwest, via Hazara and Malakand divisions of Khyber Pakhtunkhwa. To the north, Chilas connects to the cities of Tashkurgan and Kashgar in Xinjiang, via Gilgit, Aliabad, Sust, and the Khunjerab Pass.
+        <br />
+        <br />
+            Chilas comes under Gilgit-Baltistan. It is the headquarters of Diamir district. The weather is hot and dry in the summer and dry and cold in the winter. It can be reached by the Karakoram highway and also through the Kaghan valley and the Babusar Pass. Chilas is on the left bank of the Indus River. The beautiful Fairy Meadows National Park and Nanga Parbat, the ninth highest peak in the world, are also located in Chilas.
+        </p>
+
+
+    <!-- SECTION # 07 >> Azad Jammu and Kashmir -->
+        <br />
+        <br />
+        <h2 id="ajk">Azad Jammu and Kashmir</h2>
+        <hr />
+        <p>
+            Azad Jammu and Kashmir (Urdu: آزاد جموں و کشمیر), abbreviated as <abbr title="Azad Jammu and Kashmir">AJK</abbr> and colloquially referred to as simply Azad Kashmir, is a region administered by Pakistan as a nominally self-governing entity and constituting the western portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947. The territory shares a border to the north with Gilgit-Baltistan, together with which it is referred to by the United Nations and other international organizations as Pakistani-administered Kashmir.    
+        <br />
+        <br />
+            Azad Kashmir also shares borders with the Pakistani provinces of Punjab and Khyber Pakhtunkhwa to the south and west, respectively. On its eastern side, Azad Kashmir is separated from the Indian union territory of Jammu and Kashmir (part of Indian-administered Kashmir) by the Line of Control ( <abbr title="Line of Control">LoC</abbr> ), which serves as the de facto border between the Indian- and Pakistani-controlled parts of Kashmir. Geographically, it covers a total area of 13,297 km2 (5,134 sq mi) and has a total population of 4,045,366 as per the 2017 national census.</p>
+    
+        <h3 id="muz">Muzaffarabad</h3>
+        <p>
+            The city is located in Muzaffarabad District, near the confluence of the Jhelum and Neelum rivers. The district is bounded by the Pakistani province of Khyber Pakhtunkhwa in the west, the Kupwara and Baramulla districts of Indian-administered Jammu and Kashmir in the east, and the Neelum District in the north.
+        <br />
+        <br />
+            Muzaffarabad was founded in 1646 by Sultan Muzaffar Khan, chief of the Bomba tribe who ruled Kashmir. Khan also constructed the Red Fort that same year for the purpose of warding off incursions from the Mughal Empire.</p>
+
+        <h3 id="kot">Kotli</h3>
+        <p>
+            Kotli is a city in Kotli District of Azad Kashmir in Pakistan. It lies on the Poonch River, and the river contains several waterfalls, including the Lala Waterfall near the town of Kotli, and the Gulpur Waterfalls at the village of Gulpur to the southwest.
+        <br />
+        <br />
+            The city of Kotli can be dated back to the fifteenth century, when it was settled by a branch of the Royal Mangral Rajput family of Kashmir , Raja Mangar Pal. Back then it was known by the name of Kohtali, meaning "under mountain". Kotli remained independent until subdued by Ranjit Singh in 1819.
+        </p>
+
+        <h3 id="raw">Rawalakot</h3>
+        <p>
+            Along with Pallandri, Rawalakot was the focal point of the 1955 Poonch uprising. It was led by the local Sudhans who disapproved of Sher Ahmed Khan and wanted Sardar Ibrahim Khan, as well as democratic reforms.
+        <br/>
+        <br/>
+            Rawalakot features a subtropical highland climate under the Köppen climate classification due to high altitude. The weather of Rawalakot is quite erratic. However, the climate of Rawalakot can be divided into four seasons, namely spring, summer, autumn and winter. Rawalakot has mild to warm temperatures during the spring and autumn, humid temperatures during the summer and cold to snowy during the winter. The temperature can rise as high as 38 °C (100 °F) during the mid-summer months and drop below −1 °C (30 °F) during the winter months. Snowfall occurs in December and January, while most rainfall occurs during the monsoon season stretching from July to September.
+        </p>
+
+        <h3 id="hat">Hattian Bala</h3>
+        <p>
+            Hattian Bala <strong>(Urdu: ہٹیاں بالا )</strong> is a town in Hattian Bala District of Azad Kashmir, Pakistan. It is the headquarters of district and tehsil Hattian Bala.
+        <br />
+        <br />
+            Hattian Bala is located 40 kilometers (25 mi) from Muzaffarabad city on the bank of Jhelum River.
+        </p>
+
+        <h3 id="bhi">Bhimber</h3>
+        <p>
+            Bhimber <strong>(Urdu: بھمبر)</strong> is a town and the headquarters of an eponymous district in Azad Kashmir, Pakistan. The town and district are between the Jammu region of Indian-administered Kashmir and Pakistan proper, about 47 km (29 mi) by road southeast of Mirpur.
+        <br />
+        <br />
+            Bhimber lies on the route that was followed by the Mughal Emperors for their frequent visits to the Kashmir Valley. It is also known as <q>Baab-e-Kashmir</q> <em>(Door to Kashmir)</em> because of its importance and geographical location, which was ideal for the Mughal Emperors to use to enter Kashmir. Therefore, the Mughals used Bhimber as a staging point for their journey to Srinagar. The Mughal Emperor Jahangir discussed Bhimber in his book Tuzk-e-Jahangiri.
+        </p>
+
+        <h4><a id="backToTop" href="#top">BACK TO TOP 🔝</a></h4>
+</body>
+</html>
